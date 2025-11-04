@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Boutique | Experiencias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="experiences">
+    <div class="background-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="orb orb-4"></span>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="brand" aria-label="Lumina Boutique">Lumina<span>Boutique</span></div>
+        <nav aria-label="Navegación principal">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+                <span class="sr-only">Abrir menú</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html" data-nav="home">Inicio</a></li>
+                <li><a href="colecciones.html" data-nav="collections">Colecciones</a></li>
+                <li><a href="experiencias.html" data-nav="experiences">Experiencias</a></li>
+                <li><a href="blog.html" data-nav="blog">Blog</a></li>
+                <li><a href="contacto.html" data-nav="contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="contacto.html#asesoria">Agenda tu estilista</a>
+    </header>
+
+    <main>
+        <section class="page-hero" id="agenda">
+            <p class="hero-eyebrow">Experiencias vivas</p>
+            <h1>Agenda eventos híbridos y activa tu comunidad Lumina</h1>
+            <p>Desde lives privados con diseñadores hasta travesías sensoriales en nuestros pop-ups globales. Elige cómo quieres vivir la moda.</p>
+            <div class="hero-actions">
+                <a class="btn" href="#timeline">Ver cronograma</a>
+                <a class="btn btn-ghost" href="#labs">Conocer laboratorios</a>
+            </div>
+        </section>
+
+        <section class="timeline" id="timeline">
+            <div class="section-header">
+                <span class="eyebrow">Agenda 2024</span>
+                <h2>Momentos que iluminan la temporada</h2>
+                <p>Cada experiencia integra storytelling, sostenibilidad y colaboraciones exclusivas.</p>
+            </div>
+            <div class="timeline-track">
+                <article class="timeline-item" data-reveal>
+                    <span class="timeline-date">Julio · Bogotá</span>
+                    <h3>Lumina Nocturna</h3>
+                    <p>Performance audiovisual inmersivo y lanzamiento de la cápsula Nocturna.</p>
+                    <a class="pill-link" href="blog.html#lumina-nocturna">Revive el evento</a>
+                </article>
+                <article class="timeline-item" data-reveal>
+                    <span class="timeline-date">Agosto · Virtual</span>
+                    <h3>Clinics de estilo</h3>
+                    <p>Sesiones privadas con nuestro equipo de stylists y analítica de color en vivo.</p>
+                    <a class="pill-link" href="contacto.html#asesoria">Reservar cupo</a>
+                </article>
+                <article class="timeline-item" data-reveal>
+                    <span class="timeline-date">Septiembre · CDMX</span>
+                    <h3>Pop-up Aurora</h3>
+                    <p>Instalaciones olfativas, sonidos inmersivos y piezas exclusivas Aurora.</p>
+                    <a class="pill-link" href="colecciones.html#aurora">Ver cápsula</a>
+                </article>
+                <article class="timeline-item" data-reveal>
+                    <span class="timeline-date">Octubre · Madrid</span>
+                    <h3>Club Lumina Summit</h3>
+                    <p>Encuentro internacional con charlas sobre lujo consciente y tech-art.</p>
+                    <a class="pill-link" href="contacto.html#club">Unirme al club</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="labs" id="labs">
+            <div class="section-header">
+                <span class="eyebrow">Laboratorios vivos</span>
+                <h2>Experimenta con materiales y tecnología</h2>
+                <p>Activa módulos inmersivos, co-crea piezas únicas y descubre procesos transparentes.</p>
+            </div>
+            <div class="lab-grid">
+                <article class="lab-card" data-reveal>
+                    <h3>Material Lab</h3>
+                    <p>Explora fibras inteligentes, biodegradables y trazables con especialistas.</p>
+                    <ul>
+                        <li>Escáner táctil y realidad aumentada</li>
+                        <li>Pruebas de caída en vivo</li>
+                        <li>Certificaciones visibles desde tu móvil</li>
+                    </ul>
+                    <a class="pill-link" href="colecciones.html#grid">Ver materiales</a>
+                </article>
+                <article class="lab-card" data-reveal>
+                    <h3>Tailor AI</h3>
+                    <p>Un algoritmo ético crea patrones a tu medida y optimiza el desperdicio textil.</p>
+                    <ul>
+                        <li>Digitalización de medidas en segundos</li>
+                        <li>Simulación 3D instantánea</li>
+                        <li>Integración con tu armario Lumina</li>
+                    </ul>
+                    <a class="pill-link" href="contacto.html#asesoria">Agendar demo</a>
+                </article>
+                <article class="lab-card" data-reveal>
+                    <h3>Sound Walk</h3>
+                    <p>Recorridos inmersivos donde cada prenda tiene un paisaje sonoro propio.</p>
+                    <ul>
+                        <li>Audios binaurales</li>
+                        <li>Guía interactiva</li>
+                        <li>Merchandising exclusivo</li>
+                    </ul>
+                    <a class="pill-link" href="blog.html#soundwalk">Leer más</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="experience-tabs" aria-label="Formatos de experiencia">
+            <div class="tab-controls" role="tablist">
+                <button class="tab-button is-active" type="button" role="tab" aria-selected="true" data-tab-target="virtual">Experiencia virtual</button>
+                <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab-target="presencial">Showroom presencial</button>
+                <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab-target="club">Club Lumina</button>
+            </div>
+            <div class="tab-panels">
+                <article class="tab-panel is-active" data-tab-panel="virtual" role="tabpanel">
+                    <h3>Tu estilista en casa</h3>
+                    <p>Recibe recomendaciones en vivo, cápsulas personalizadas y moodboards interactivos en tu pantalla.</p>
+                    <ul>
+                        <li>Videollamadas con estudio de color</li>
+                        <li>Armario inteligente conectado</li>
+                        <li>Entrega express con empaques retornables</li>
+                    </ul>
+                </article>
+                <article class="tab-panel" data-tab-panel="presencial" role="tabpanel">
+                    <h3>Showroom sensorial</h3>
+                    <p>Vive instalaciones inmersivas con iluminación reactiva, aromas personalizados y piezas únicas.</p>
+                    <ul>
+                        <li>Escenarios temáticos por colección</li>
+                        <li>Bar de texturas y materiales</li>
+                        <li>Co-creación junto a artistas invitados</li>
+                    </ul>
+                </article>
+                <article class="tab-panel" data-tab-panel="club" role="tabpanel">
+                    <h3>Club Lumina</h3>
+                    <p>Una membresía que conecta experiencias globales, lanzamientos anticipados y comunidad creativa.</p>
+                    <ul>
+                        <li>Acceso prioritario a cápsulas limitadas</li>
+                        <li>Residencias creativas en ciudades clave</li>
+                        <li>Networking con diseñadores y artesanos</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand">Lumina<span>Boutique</span></div>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="colecciones.html">Colecciones</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="footer-note">© 2024 Lumina Boutique. Moda consciente, tecnología humana.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

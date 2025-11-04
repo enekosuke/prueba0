@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Boutique | Moda sensorial y experiencias inmersivas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+    <div class="background-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="orb orb-4"></span>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="brand" aria-label="Lumina Boutique">Lumina<span>Boutique</span></div>
+        <nav aria-label="Navegación principal">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+                <span class="sr-only">Abrir menú</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html" data-nav="home">Inicio</a></li>
+                <li><a href="colecciones.html" data-nav="collections">Colecciones</a></li>
+                <li><a href="experiencias.html" data-nav="experiences">Experiencias</a></li>
+                <li><a href="blog.html" data-nav="blog">Blog</a></li>
+                <li><a href="contacto.html" data-nav="contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="contacto.html#asesoria">Agenda tu estilista</a>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content" data-reveal>
+                <p class="hero-eyebrow">Moda inteligente & experiencias sensoriales</p>
+                <h1>Tu boutique digital con alma de showroom</h1>
+                <p>Explora colecciones cápsula con tejidos tecnológicos, asesoría humana en vivo y entregas conscientes en menos de 24 horas.</p>
+                <div class="hero-actions">
+                    <a class="btn" href="colecciones.html">Descubrir colecciones</a>
+                    <a class="btn btn-ghost" href="experiencias.html">Vivir experiencias</a>
+                </div>
+                <dl class="hero-metrics">
+                    <div>
+                        <dt>Clientes felices</dt>
+                        <dd>+12&nbsp;500</dd>
+                    </div>
+                    <div>
+                        <dt>Diseños exclusivos</dt>
+                        <dd>420</dd>
+                    </div>
+                    <div>
+                        <dt>Eventos inmersivos</dt>
+                        <dd>36 anuales</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="hero-gallery" data-reveal>
+                <article class="gallery-card">
+                    <h3>Serie Aurora</h3>
+                    <p>Sastrería luminosa con fibras recicladas y bordado a mano.</p>
+                    <a href="colecciones.html#aurora" class="pill-link">Ver lookbook</a>
+                </article>
+                <article class="gallery-card">
+                    <h3>Accesorios Éter</h3>
+                    <p>Joyas vivas que reaccionan a la luz y transforman tu outfit.</p>
+                    <a href="colecciones.html#eter" class="pill-link">Descubrir</a>
+                </article>
+                <article class="gallery-card">
+                    <h3>Calzado Élan</h3>
+                    <p>Comodidad biomecánica con acabados impecables de autor.</p>
+                    <a href="colecciones.html#elan" class="pill-link">Comprar ahora</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="screen-showcase" aria-labelledby="screen-title">
+            <div class="section-header" data-reveal>
+                <span class="eyebrow" id="screen-title">Descubre cada pantalla</span>
+                <h2>Explora los mundos de Lumina</h2>
+                <p>Redirige a las experiencias clave y conoce todo lo que puedes vivir en nuestra boutique híbrida.</p>
+            </div>
+            <div class="screen-grid">
+                <a class="screen-card" href="colecciones.html" data-reveal>
+                    <span class="screen-icon">🎨</span>
+                    <h3>Curaduría por estilos</h3>
+                    <p>Filtra por ocasión, colorimetría o nivel de sostenibilidad.</p>
+                    <span class="screen-link">Ir a colecciones</span>
+                </a>
+                <a class="screen-card" href="experiencias.html" data-reveal>
+                    <span class="screen-icon">🪩</span>
+                    <h3>Experiencias inmersivas</h3>
+                    <p>Agenda probadores virtuales, noches de lanzamiento y liveshopping.</p>
+                    <span class="screen-link">Ver agenda</span>
+                </a>
+                <a class="screen-card" href="blog.html" data-reveal>
+                    <span class="screen-icon">📰</span>
+                    <h3>Historias y editoriales</h3>
+                    <p>Lee artículos, guías de estilo y entrevistas con diseñadores invitados.</p>
+                    <span class="screen-link">Ir al blog</span>
+                </a>
+                <a class="screen-card" href="contacto.html" data-reveal>
+                    <span class="screen-icon">🤝</span>
+                    <h3>Atención personal</h3>
+                    <p>Solicita asesoría, agéndate al showroom y resuelve dudas en vivo.</p>
+                    <span class="screen-link">Hablar con nosotros</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="collections" id="colecciones">
+            <div class="section-header" data-reveal>
+                <span class="eyebrow">Colecciones cápsula</span>
+                <h2>Diseños que brillan con propósito</h2>
+                <p>Cada línea está elaborada con materiales trazables, producción consciente y storytelling propio.</p>
+            </div>
+            <div class="collection-grid">
+                <article class="collection-card" data-reveal>
+                    <div class="card-image image-1" role="presentation"></div>
+                    <div class="card-body">
+                        <h3>Minimal Luxe</h3>
+                        <p>Cortes arquitectónicos, monocromías iridiscentes y texturas táctiles.</p>
+                        <button class="link" type="button" data-modal-open data-modal-title="Minimal Luxe" data-modal-content="Explora conjuntos monocromáticos con tejidos certificados, capas reversibles y accesorios modulares diseñados para acompañarte día y noche.">Ver detalles</button>
+                    </div>
+                </article>
+                <article class="collection-card" data-reveal>
+                    <div class="card-image image-2" role="presentation"></div>
+                    <div class="card-body">
+                        <h3>Boho Galáctico</h3>
+                        <p>Tonos cósmicos y bordados luminosos para espíritus libres.</p>
+                        <button class="link" type="button" data-modal-open data-modal-title="Boho Galáctico" data-modal-content="Sumérgete en caftanes de seda reciclada, mallas brillantes y joyería inspirada en constelaciones. Descarga el catálogo completo y agenda un styling virtual.">Ver detalles</button>
+                    </div>
+                </article>
+                <article class="collection-card" data-reveal>
+                    <div class="card-image image-3" role="presentation"></div>
+                    <div class="card-body">
+                        <h3>Íconos Urbanos</h3>
+                        <p>El athleisure premium que equilibra movimiento y lujo.</p>
+                        <button class="link" type="button" data-modal-open data-modal-title="Íconos Urbanos" data-modal-content="Descubre piezas funcionales con tecnología antiarrugas, sneakers personalizados y abrigos reversibles para la ciudad moderna.">Ver detalles</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="experience" id="experiencia">
+            <div class="experience-content" data-reveal>
+                <span class="eyebrow">Experiencia híbrida</span>
+                <h2>Tu boutique te acompaña en cada canal</h2>
+                <p>Desde probadores virtuales con realidad aumentada hasta showrooms efímeros en las capitales más vibrantes. Diseñamos cada punto de contacto para despertar tus sentidos.</p>
+                <ul class="experience-list">
+                    <li>Lookbooks interactivos que responden a tu estado de ánimo.</li>
+                    <li>Citas privadas con diseñadores invitados cada temporada.</li>
+                    <li>Pago con un toque, rastreo inteligente y soporte humano.</li>
+                </ul>
+                <div class="stats">
+                    <div class="stat">
+                        <strong>92%</strong>
+                        <span>Satisfacción en experiencias inmersivas</span>
+                    </div>
+                    <div class="stat">
+                        <strong>+180</strong>
+                        <span>Marcas artesanales aliadas</span>
+                    </div>
+                    <div class="stat">
+                        <strong>48h</strong>
+                        <span>Reposición de tallas garantizada</span>
+                    </div>
+                </div>
+                <a class="btn" href="experiencias.html#agenda">Ver agenda completa</a>
+            </div>
+            <div class="experience-media" data-reveal>
+                <article class="media-card">
+                    <h3>Live Shopping</h3>
+                    <p>Eventos streaming con estilistas para elegir tus piezas favoritas en vivo.</p>
+                </article>
+                <article class="media-card">
+                    <h3>Showroom efímero</h3>
+                    <p>Instalaciones itinerantes con instalaciones olfativas y sonoras.</p>
+                </article>
+                <article class="media-card">
+                    <h3>Club Lumina</h3>
+                    <p>Acceso VIP a lanzamientos limitados y experiencias backstage.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonios">
+            <div class="section-header" data-reveal>
+                <span class="eyebrow">Testimonios</span>
+                <h2>Experiencias que inspiran</h2>
+                <p>Clientes, creativos y partners comparten cómo Lumina ha transformado su forma de consumir moda.</p>
+            </div>
+            <div class="testimonial-slider" data-slider>
+                <article class="testimonial" data-reveal>
+                    <p>“La asesoría virtual fue como tener a mi estilista personal en casa. Cada recomendación encajó perfecto con mi ritmo de vida.”</p>
+                    <span class="author">María Fernanda · CEO Techloom</span>
+                </article>
+                <article class="testimonial" data-reveal>
+                    <p>“El club Lumina redefine el lujo consciente. Conocí a los artesanos detrás de mi chaqueta favorita en un evento holográfico.”</p>
+                    <span class="author">Luis Herrera · Curador de moda</span>
+                </article>
+                <article class="testimonial" data-reveal>
+                    <p>“La entrega exprés reutilizable y la trazabilidad de las piezas me hicieron fan instantánea. Una compra impecable.”</p>
+                    <span class="author">Daniela Ortiz · Creativa digital</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="blog-preview" id="blog">
+            <div class="section-header" data-reveal>
+                <span class="eyebrow">Desde nuestro diario</span>
+                <h2>Historias que encienden tu estilo</h2>
+                <p>Explora editoriales, colaboraciones y guías exclusivas para vestir con consciencia y sofisticación.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card" data-reveal>
+                    <span class="tag">Tendencias</span>
+                    <h3>Neoartesanía: bordados que abrazan la tecnología</h3>
+                    <p>Descubre cómo fusionamos algoritmos textiles y tradición manual en nuestra última cápsula.</p>
+                    <a href="blog.html#neoartesania" class="pill-link">Leer historia</a>
+                </article>
+                <article class="blog-card" data-reveal>
+                    <span class="tag">Guía de estilo</span>
+                    <h3>Construye un armario cápsula radiante</h3>
+                    <p>Te guiamos paso a paso para crear looks diarios con impacto mínimo y presencia máxima.</p>
+                    <a href="blog.html#armario" class="pill-link">Ver guía</a>
+                </article>
+                <article class="blog-card" data-reveal>
+                    <span class="tag">Eventos</span>
+                    <h3>Así se vivió Lumina Nocturna 2024</h3>
+                    <p>Luces, performance en vivo y storytelling inmersivo en nuestro evento más esperado.</p>
+                    <a href="blog.html#lumina-nocturna" class="pill-link">Revive el evento</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta" id="contacto">
+            <div class="cta-card" data-reveal>
+                <h2>¿Lista para brillar con asesoría personalizada?</h2>
+                <p>Reserva una sesión híbrida con nuestros estilistas y recibe una ruta de estilo creada exclusivamente para ti.</p>
+                <div class="cta-actions">
+                    <a class="btn" href="contacto.html#asesoria">Reservar asesoría</a>
+                    <a class="btn btn-ghost" href="contacto.html#faq">Preguntas frecuentes</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand">Lumina<span>Boutique</span></div>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="colecciones.html">Colecciones</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="footer-note">© 2024 Lumina Boutique. Moda consciente, tecnología humana.</p>
+    </footer>
+
+    <div class="modal" id="info-modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <button class="modal-close" type="button" data-close-modal aria-label="Cerrar">×</button>
+            <div class="modal-content">
+                <h3 class="modal-title">Título del modal</h3>
+                <p class="modal-body">Contenido extendido de la colección.</p>
+                <div class="modal-actions">
+                    <a class="btn" href="colecciones.html">Explorar colección</a>
+                    <button class="btn btn-ghost" type="button" data-close-modal>Volver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
