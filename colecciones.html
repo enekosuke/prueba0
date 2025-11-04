@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Boutique | Colecciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="collections">
+    <div class="background-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="orb orb-4"></span>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="brand" aria-label="Lumina Boutique">Lumina<span>Boutique</span></div>
+        <nav aria-label="Navegación principal">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+                <span class="sr-only">Abrir menú</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html" data-nav="home">Inicio</a></li>
+                <li><a href="colecciones.html" data-nav="collections">Colecciones</a></li>
+                <li><a href="experiencias.html" data-nav="experiences">Experiencias</a></li>
+                <li><a href="blog.html" data-nav="blog">Blog</a></li>
+                <li><a href="contacto.html" data-nav="contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="contacto.html#asesoria">Agenda tu estilista</a>
+    </header>
+
+    <main>
+        <section class="page-hero" id="aurora">
+            <p class="hero-eyebrow">Colecciones cápsula</p>
+            <h1>Curaduría personalizada según tu universo estético</h1>
+            <p>Selecciona filtros inteligentes y navega por nuestras cápsulas limitadas. Cada pieza integra tecnología, artesanía y sostenibilidad.</p>
+            <div class="hero-actions">
+                <a class="btn" href="#grid">Ver cápsulas</a>
+                <a class="btn btn-ghost" href="experiencias.html#agenda">Agenda estilista virtual</a>
+            </div>
+        </section>
+
+        <section class="collection-filter" id="grid">
+            <div class="section-header">
+                <span class="eyebrow">Elige tu mood</span>
+                <h2>Filtra por ocasión y materialidad</h2>
+                <p>Combina filtros para descubrir piezas alineadas a tu ritmo de vida.</p>
+            </div>
+            <div class="filter-controls" role="tablist" aria-label="Filtros de colecciones">
+                <button class="filter-button is-active" type="button" data-filter="todos" role="tab" aria-selected="true">Todas</button>
+                <button class="filter-button" type="button" data-filter="nocturno" role="tab" aria-selected="false">Nocturno</button>
+                <button class="filter-button" type="button" data-filter="urbano" role="tab" aria-selected="false">Urbano</button>
+                <button class="filter-button" type="button" data-filter="sostenible" role="tab" aria-selected="false">Sostenible</button>
+                <button class="filter-button" type="button" data-filter="artesanal" role="tab" aria-selected="false">Artesanal</button>
+            </div>
+
+            <div class="collection-catalog">
+                <article class="catalog-card" data-collection-item="nocturno sostenible" id="eter">
+                    <div class="catalog-media media-aurora"></div>
+                    <div class="catalog-content">
+                        <span class="tag">Serie Aurora</span>
+                        <h3>Luces líquidas</h3>
+                        <p>Vestidos midi con fibras fotoluminiscentes y forros respirables.</p>
+                        <div class="catalog-meta">
+                            <span>Entrega 24h</span>
+                            <span>Huella neutra</span>
+                        </div>
+                        <a class="pill-link" href="contacto.html#asesoria">Reservar prueba</a>
+                    </div>
+                </article>
+                <article class="catalog-card" data-collection-item="urbano sostenible" id="elan">
+                    <div class="catalog-media media-elan"></div>
+                    <div class="catalog-content">
+                        <span class="tag">Calzado Élan</span>
+                        <h3>Step & Glow</h3>
+                        <p>Botines inteligentes que amortiguan según tu pisada y brillan suave al caminar.</p>
+                        <div class="catalog-meta">
+                            <span>Plantilla bio</span>
+                            <span>Series limitadas</span>
+                        </div>
+                        <a class="pill-link" href="experiencias.html#labs">Explorar laboratorio</a>
+                    </div>
+                </article>
+                <article class="catalog-card" data-collection-item="artesanal nocturno">
+                    <div class="catalog-media media-boho"></div>
+                    <div class="catalog-content">
+                        <span class="tag">Boho Galáctico</span>
+                        <h3>Constelaciones táctiles</h3>
+                        <p>Caftanes tejidos a mano con aplicaciones lumínicas responsivas.</p>
+                        <div class="catalog-meta">
+                            <span>Taller colaborativo</span>
+                            <span>Edición 70 piezas</span>
+                        </div>
+                        <a class="pill-link" href="#lookbook">Ver lookbook</a>
+                    </div>
+                </article>
+                <article class="catalog-card" data-collection-item="urbano">
+                    <div class="catalog-media media-urbano"></div>
+                    <div class="catalog-content">
+                        <span class="tag">Íconos Urbanos</span>
+                        <h3>Metropolis 2.0</h3>
+                        <p>Trench coats reversibles, bolsos modulares y textiles water repellent.</p>
+                        <div class="catalog-meta">
+                            <span>Hecho en Bogotá</span>
+                            <span>Garantía extendida</span>
+                        </div>
+                        <a class="pill-link" href="experiencias.html#agenda">Agendar visita</a>
+                    </div>
+                </article>
+                <article class="catalog-card" data-collection-item="sostenible artesanal">
+                    <div class="catalog-media media-eco"></div>
+                    <div class="catalog-content">
+                        <span class="tag">Eco Alta Costura</span>
+                        <h3>Raíces futuristas</h3>
+                        <p>Prendas creadas con tintes botánicos y bordado 3D colaborativo.</p>
+                        <div class="catalog-meta">
+                            <span>Compensación 200%</span>
+                            <span>Hecho a la carta</span>
+                        </div>
+                        <a class="pill-link" href="contacto.html#asesoria">Solicitar diseño</a>
+                    </div>
+                </article>
+                <article class="catalog-card" data-collection-item="urbano nocturno">
+                    <div class="catalog-media media-night"></div>
+                    <div class="catalog-content">
+                        <span class="tag">Nocturna</span>
+                        <h3>Reflejos vibrantes</h3>
+                        <p>Monos satinados con microleds y chaquetas reflectivas modulables.</p>
+                        <div class="catalog-meta">
+                            <span>Made to order</span>
+                            <span>Upcycling</span>
+                        </div>
+                        <a class="pill-link" href="blog.html#lumina-nocturna">Ver backstage</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="lookbook" id="lookbook">
+            <div class="section-header">
+                <span class="eyebrow">Lookbook interactivo</span>
+                <h2>Construye tu combinación perfecta</h2>
+                <p>Arrastra estilos a tu paleta personal y guarda tus favoritos para tu cita con la stylist.</p>
+            </div>
+            <div class="lookbook-builder" data-reveal>
+                <div class="builder-board" role="region" aria-label="Tablero de combinaciones">
+                    <p>Arrastra un estilo y descubre sugerencias de layering, accesorios y calzado.</p>
+                    <div class="board-drops">
+                        <div class="drop-slot" aria-label="Base"></div>
+                        <div class="drop-slot" aria-label="Capa intermedia"></div>
+                        <div class="drop-slot" aria-label="Accesorio"></div>
+                    </div>
+                </div>
+                <div class="builder-swatches" role="list">
+                    <button class="swatch" type="button" data-swatch="minimal">Minimal Luxe</button>
+                    <button class="swatch" type="button" data-swatch="boho">Boho Galáctico</button>
+                    <button class="swatch" type="button" data-swatch="urbano">Íconos Urbanos</button>
+                    <button class="swatch" type="button" data-swatch="eco">Eco Alta Costura</button>
+                </div>
+                <p class="builder-feedback" role="status">Selecciona un estilo para ver sus recomendaciones.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand">Lumina<span>Boutique</span></div>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="colecciones.html">Colecciones</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="footer-note">© 2024 Lumina Boutique. Moda consciente, tecnología humana.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

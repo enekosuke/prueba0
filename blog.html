@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Boutique | Blog y editoriales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="blog">
+    <div class="background-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="orb orb-4"></span>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="brand" aria-label="Lumina Boutique">Lumina<span>Boutique</span></div>
+        <nav aria-label="Navegación principal">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+                <span class="sr-only">Abrir menú</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html" data-nav="home">Inicio</a></li>
+                <li><a href="colecciones.html" data-nav="collections">Colecciones</a></li>
+                <li><a href="experiencias.html" data-nav="experiences">Experiencias</a></li>
+                <li><a href="blog.html" data-nav="blog">Blog</a></li>
+                <li><a href="contacto.html" data-nav="contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="contacto.html#asesoria">Agenda tu estilista</a>
+    </header>
+
+    <main>
+        <section class="page-hero" id="neoartesania">
+            <p class="hero-eyebrow">Editoriales & comunidad</p>
+            <h1>Historias que conectan moda, tecnología y artesanía</h1>
+            <p>Explora entrevistas, guías prácticas y crónicas de nuestros eventos más vibrantes.</p>
+            <div class="hero-actions">
+                <a class="btn" href="#articulos">Explorar artículos</a>
+                <a class="btn btn-ghost" href="#newsletter">Recibir novedades</a>
+            </div>
+        </section>
+
+        <section class="blog-feed" id="articulos">
+            <div class="section-header">
+                <span class="eyebrow">Selección destacada</span>
+                <h2>Lecturas recientes del universo Lumina</h2>
+            </div>
+            <div class="blog-list">
+                <article class="blog-entry" id="armario" data-reveal>
+                    <span class="tag">Guía de estilo</span>
+                    <h3>Construye un armario cápsula radiante</h3>
+                    <p>Aprende a mezclar siluetas, tejidos responsables y accesorios luminosos sin perder autenticidad.</p>
+                    <a class="pill-link" href="#newsletter">Guardar guía</a>
+                </article>
+                <article class="blog-entry" id="lumina-nocturna" data-reveal>
+                    <span class="tag">Eventos</span>
+                    <h3>Así se vivió Lumina Nocturna 2024</h3>
+                    <p>Un recorrido audiovisual por performances, colaboraciones y lanzamientos exclusivos.</p>
+                    <a class="pill-link" href="experiencias.html#timeline">Ver cronograma</a>
+                </article>
+                <article class="blog-entry" id="soundwalk" data-reveal>
+                    <span class="tag">Innovación</span>
+                    <h3>Sound Walk: moda que se escucha</h3>
+                    <p>Descubre cómo creamos paisajes sonoros que acompañan cada cápsula y elevan la experiencia.</p>
+                    <a class="pill-link" href="experiencias.html#labs">Visitar laboratorio</a>
+                </article>
+                <article class="blog-entry" data-reveal>
+                    <span class="tag">Entrevista</span>
+                    <h3>Conversamos con Atelier Novae</h3>
+                    <p>La dupla detrás de nuestra cápsula Eco Alta Costura revela su proceso creativo regenerativo.</p>
+                    <a class="pill-link" href="colecciones.html#grid">Conocer colección</a>
+                </article>
+                <article class="blog-entry" data-reveal>
+                    <span class="tag">Cuidado de prendas</span>
+                    <h3>Rituales para prolongar la vida de tus textiles inteligentes</h3>
+                    <p>Tips prácticos para mantener tus piezas impecables y conscientes durante años.</p>
+                    <a class="pill-link" href="contacto.html#faq">Solicitar asesoría</a>
+                </article>
+                <article class="blog-entry" data-reveal>
+                    <span class="tag">Comunidad</span>
+                    <h3>Club Lumina: networking creativo sin fronteras</h3>
+                    <p>Historias de miembros que co-crean proyectos y experiencias alrededor del lujo consciente.</p>
+                    <a class="pill-link" href="experiencias.html#agenda">Unirme al club</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="podcast" aria-labelledby="podcast-title">
+            <div class="section-header">
+                <span class="eyebrow" id="podcast-title">Podcast Lumina</span>
+                <h2>Conversaciones que iluminan</h2>
+                <p>Escucha episodios quincenales sobre innovación textil, diseño latino y creatividad sostenible.</p>
+            </div>
+            <div class="podcast-player" data-reveal>
+                <div class="player-info">
+                    <h3>Ep. 18 — Textiles que respiran</h3>
+                    <p>Una charla con BioWeave Labs sobre tejidos vivos que se adaptan a tu entorno.</p>
+                </div>
+                <div class="player-controls">
+                    <button type="button" class="player-btn" aria-label="Reproducir" data-player="play">▶</button>
+                    <button type="button" class="player-btn" aria-label="Pausar" data-player="pause">⏸</button>
+                    <button type="button" class="player-btn" aria-label="Adelantar 30 segundos" data-player="forward">⏩</button>
+                </div>
+                <div class="player-wave" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <section class="newsletter" id="newsletter">
+            <div class="newsletter-card" data-reveal>
+                <h2>Recibe editoriales y eventos exclusivos</h2>
+                <p>Suscríbete para obtener acceso prioritario a colecciones, experiencias y beneficios de la comunidad.</p>
+                <form class="newsletter-form" data-enhanced-form>
+                    <label for="email" class="sr-only">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                    <button class="btn" type="submit">Quiero recibir noticias</button>
+                    <p class="form-feedback" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand">Lumina<span>Boutique</span></div>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="colecciones.html">Colecciones</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="footer-note">© 2024 Lumina Boutique. Moda consciente, tecnología humana.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
