@@ -75,7 +75,7 @@
                     <div class="card-body">
                         <h3>Minimal Luxe</h3>
                         <p>Silenciosa sofisticación con cortes arquitectónicos y fibras ecológicas.</p>
-                        <a href="#" class="link">Descubrir más</a>
+                        <a href="#" class="link" data-modal="Minimal Luxe" data-description="Explora conjuntos monocromáticos con detalles iridiscentes, tejidos orgánicos certificados y accesorios modulares pensados para acompañarte día y noche.">Descubrir más</a>
                     </div>
                 </article>
                 <article class="collection-card reveal">
@@ -83,6 +83,7 @@
                     <div class="card-body">
                         <h3>Boho Galáctico</h3>
                         <p>Tonos cósmicos, texturas fluidas y bordados luminosos para espíritus libres.</p>
+                        <a href="#" class="link" data-modal="Boho Galáctico" data-description="Sumérgete en caftanes de seda reciclada, mallas brillantes y joyería artesanal inspirada en constelaciones. Descarga el catálogo completo y agenda un styling virtual.">Descubrir más</a>
                         <a href="#" class="link">Descubrir más</a>
                     </div>
                 </article>
@@ -91,7 +92,7 @@
                     <div class="card-body">
                         <h3>Íconos Urbanos</h3>
                         <p>Lo mejor del athleisure con elementos premium para la ciudad moderna.</p>
-                        <a href="#" class="link">Descubrir más</a>
+                        <a href="#" class="link" data-modal="Íconos Urbanos" data-description="Descubre conjuntos funcionales con tecnología antiarrugas, sneakers personalizados y abrigos reversibles. Programa una visita al showroom para probar la colección.">Descubrir más</a>
                     </div>
                 </article>
             </div>
@@ -209,19 +210,19 @@
                     <span class="tag">Tendencias</span>
                     <h3>El renacer del brillo sutil en looks de día</h3>
                     <p>Una guía para dominar la luminosidad en capas versátiles y responsables.</p>
-                    <a href="#" class="link">Leer artículo</a>
+                    <a href="#" class="link" data-modal="Brillo sutil" data-description="Aprende a mezclar acabados satinados con texturas mate, recomendaciones de prendas Lumina y combinaciones cromáticas para llevar brillo elegante al día.">Leer artículo</a>
                 </article>
                 <article class="blog-card reveal">
                     <span class="tag">Cuidado</span>
                     <h3>Rutinas para conservar tejidos inteligentes</h3>
                     <p>Tips que extienden la vida de tus prendas favoritas y reducen desperdicios.</p>
-                    <a href="#" class="link">Leer artículo</a>
+                    <a href="#" class="link" data-modal="Cuidado de tejidos" data-description="Descarga la guía de mantenimiento con instrucciones para lavado en frío, almacenamiento sin fricción y kits de reparación para fibras técnicas.">Leer artículo</a>
                 </article>
                 <article class="blog-card reveal">
                     <span class="tag">Eventos</span>
                     <h3>Un vistazo al próximo show en Ciudad Lúmina</h3>
                     <p>Entérate de los diseñadores invitados y experiencias exclusivas.</p>
-                    <a href="#" class="link">Leer artículo</a>
+                    <a href="#" class="link" data-modal="Próximo show" data-description="Reserva tu pase prioritario y conoce el calendario de presentaciones con diseñadores emergentes y experiencias sensoriales exclusivas.">Leer artículo</a>
                 </article>
             </div>
         </section>
@@ -249,6 +250,7 @@
                         </select>
                     </div>
                     <button type="submit" class="btn">Agendar asesoría</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
                 </form>
             </div>
             <div class="cta-aside">
@@ -260,7 +262,7 @@
                 <div class="aside-card">
                     <h3>Visita la casa Lumina</h3>
                     <p>Cita previa en Madrid, Barcelona y Ciudad de México con experiencias sensoriales.</p>
-                    <a href="#" class="link">Reservar showroom</a>
+                    <a href="#contacto" class="link">Reservar showroom</a>
                 </div>
             </div>
         </section>
@@ -306,6 +308,16 @@
             <a href="#inicio" class="back-to-top">Volver al inicio</a>
         </div>
     </footer>
+
+    <div class="modal" id="info-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-content" role="document">
+            <button class="modal-close" type="button" aria-label="Cerrar" data-close-modal>&times;</button>
+            <h3 class="modal-title" id="modal-title"></h3>
+            <p class="modal-body"></p>
+            <a class="btn modal-cta" href="#contacto">Agenda tu asesoría</a>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -613,6 +613,85 @@ input:focus, select:focus {
     text-decoration: none;
 }
 
+.modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 10, 17, 0.7);
+}
+
+.modal-content {
+    position: relative;
+    background: rgba(18, 22, 33, 0.95);
+    border-radius: 1.6rem;
+    padding: 2.5rem;
+    width: min(420px, 90vw);
+    border: 1px solid rgba(156, 107, 255, 0.35);
+    box-shadow: 0 45px 75px rgba(8, 10, 17, 0.6);
+    display: grid;
+    gap: 1.2rem;
+    z-index: 1;
+}
+
+.modal-title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+}
+
+.modal-body {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+    color: var(--accent-strong);
+}
+
+.modal-cta {
+    text-align: center;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
+.form-status {
+    min-height: 1.4rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    color: var(--accent-strong);
+    margin-top: -0.3rem;
+}
+
 .reveal {
     opacity: 0;
     transform: translateY(20px);
