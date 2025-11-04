@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Treat generated assets as binary
+*.webp binary
+*.avif binary
+*.pdf binary
+*.svg text eol=lf
+

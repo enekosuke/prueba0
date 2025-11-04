@@ -1,0 +1,22 @@
+{
+  "name": "@aurora/utils",
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "currency.js": "2.0.4",
+    "date-fns": "3.3.1",
+    "i18next": "23.8.1"
+  },
+  "devDependencies": {
+    "@aurora/config": "workspace:*",
+    "tsup": "8.0.2",
+    "vitest": "1.2.2"
+  }
+}
