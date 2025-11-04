@@ -1,0 +1,23 @@
+{
+  "name": "aurora-shop",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@8.15.5",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "pnpm dev:services && pnpm -r --parallel dev",
+    "dev:services": "pnpm -C infrastructure docker:up",
+    "dev:down": "pnpm -C infrastructure docker:down",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "format": "pnpm -r format",
+    "build": "pnpm -r build",
+    "seed": "pnpm -C apps/api seed"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "18.6.1",
+    "@commitlint/config-conventional": "18.6.2",
+    "concurrently": "8.2.2",
+    "husky": "^8.0.0"
+  }
+}

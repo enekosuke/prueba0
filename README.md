@@ -1,86 +1,73 @@
-# Lumina Boutique Commerce Platform
+# Aurora Shop
 
-Lumina Boutique is a full-stack commerce experience built with a modern JavaScript tooling stack. The platform delivers a polished storefront, secure checkout, and a personalised customer dashboard while remaining ready to deploy on popular cloud providers.
+Plataforma ecommerce full-stack moderna con monorepo pnpm. Incluye frontend Next.js 14 (App Router), backend NestJS + Prisma, infraestructura Docker y paquetes compartidos.
 
-## Tech Stack
+## Requisitos
 
-| Layer | Technology |
-| --- | --- |
-| Frontend | Next.js 13 (React 18), Redux Toolkit, Framer Motion |
-| Backend | Express.js, MongoDB (Mongoose), Stripe, PayPal SDK |
-| Authentication | JSON Web Tokens, Passport Google/Facebook OAuth |
-| Hosting Targets | Vercel for the frontend, DigitalOcean/Render for the API |
+- Node.js 20 (usa `.nvmrc`).
+- pnpm 8.15.
+- Docker + Docker Compose.
 
-## Features
+## Instalación
 
-### Storefront
-- Hero with promotional highlights, CTA, and animated product carousel.
-- Catalog with category/price/availability filters, server-backed search with autocomplete, and lazy loaded galleries.
-- Product detail pages featuring zoomable galleries, animation-rich add-to-cart button, reviews, and specification tabs.
-- Personalised recommendations that update from browsing history.
-
-### Shopping Flow
-- Persistent cart with skeleton loaders and optimistic updates.
-- Checkout with shipping form validation, payment option selection (Stripe & PayPal), CSRF protection, and order summary.
-- Order confirmation and email-ready payload from the backend.
-
-### Customer Area
-- Secure login with JWT + OAuth (Google/Facebook) including social buttons.
-- Profile editor, address book, favourites, and full order history.
-- Account security controls with password update (bcrypt hashed) and device management stubs.
-
-## Getting Started
-
-### Prerequisites
-- Node.js 18+
-- MongoDB instance
-- Stripe & PayPal credentials
-- Google and Facebook OAuth credentials
-
-### Environment Variables
-Copy the `.env.example` files from `frontend` and `backend`, then fill them with your secrets.
-
-```
-cp frontend/.env.example frontend/.env.local
-cp backend/.env.example backend/.env
+```bash
+pnpm install
 ```
 
-### Development
+## Entorno
 
-Install dependencies in both workspaces:
+Copia los ejemplos de variables:
 
-```
-cd frontend && npm install
-cd ../backend && npm install
-```
-
-Run the API and the web client concurrently (two terminals):
-
-```
-cd backend && npm run dev
-cd frontend && npm run dev
+```bash
+cp apps/web/.env.example apps/web/.env
+cp apps/api/.env.example apps/api/.env
 ```
 
-The storefront will be available at `http://localhost:3000`, and the API at `http://localhost:5000`.
+## Desarrollo local
 
-### Testing & Linting
+1. Levanta servicios base (PostgreSQL, Redis, Meilisearch, MinIO, Maildev):
+   ```bash
+   pnpm dev:services
+   ```
+2. Aplica migraciones Prisma y seed:
+   ```bash
+   cd apps/api
+   pnpm prisma migrate deploy
+   pnpm seed
+   cd ../..
+   ```
+3. Ejecuta frontend y backend en paralelo:
+   ```bash
+   pnpm dev
+   ```
+   - API NestJS: http://localhost:3001/api
+   - Swagger: http://localhost:3001/api/docs
+   - GraphQL playground: http://localhost:3001/graphql
+   - Frontend Next.js: http://localhost:3000
 
-- `frontend`: `npm run lint`
-- `backend`: `npm test`
+Para detener servicios auxiliares:
+```bash
+pnpm dev:down
+```
 
-## Deployment
+## Scripts principales
 
-- Frontend: deploy the Next.js app to Vercel or Netlify with environment variables configured.
-- Backend: deploy the Express API to DigitalOcean App Platform, Render, or Railway.
-- Configure HTTPS, environment variables, MongoDB, Stripe, and PayPal secrets in your hosting control panel.
+- `pnpm build`: compila todos los paquetes.
+- `pnpm lint`: ejecuta ESLint en workspaces.
+- `pnpm test`: ejecuta tests (Jest + Vitest).
+- `pnpm format`: comprueba formato con Prettier.
+- `pnpm seed`: ejecuta seeding Prisma (desde `/apps/api`).
 
-## Security Checklist
+## Infraestructura
 
-- CSRF protection enabled on the checkout endpoints.
-- Input sanitisation via `express-validator` and `sanitize-html`.
-- Password hashing via `bcryptjs` before persistence.
-- Rate limiting and Helmet for hardened headers.
+`infrastructure/docker-compose.yml` incluye PostgreSQL, Redis, Meilisearch, Maildev y MinIO listos para desarrollo.
 
-## License
+## Documentación adicional
 
-MIT
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [docs/adr](./docs/adr) para decisiones arquitectónicas (pendientes de expansión).
+
+## Estado actual
+
+El repositorio proporciona base funcional: catálogo consultable vía REST/GraphQL, seed realista con productos y categorías, frontend con hero, carrusel, PDP y vistas de carrito/checkout. El carrito soporta ahora persistencia local, cupones, actualización de cantidades y API unificada REST/GraphQL. Faltan integraciones reales de pago y envíos, listas para conectar mediante variables de entorno.

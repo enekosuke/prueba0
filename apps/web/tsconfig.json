@@ -1,0 +1,53 @@
+{
+  "extends": "@aurora/config/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "./components/*"
+      ],
+      "@/features/*": [
+        "./features/*"
+      ],
+      "@/lib/*": [
+        "./lib/*"
+      ],
+      "@/stores/*": [
+        "./stores/*"
+      ],
+      "@aurora/ui": [
+        "../../packages/ui/src/index.ts"
+      ],
+      "@aurora/ui/*": [
+        "../../packages/ui/src/*"
+      ],
+      "@aurora/utils": [
+        "../../packages/utils/src/index.ts"
+      ],
+      "@aurora/utils/*": [
+        "../../packages/utils/src/*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@types/react"
+    ],
+    "incremental": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

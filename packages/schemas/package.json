@@ -1,0 +1,21 @@
+{
+  "name": "@aurora/schemas",
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "test": "vitest run",
+    "dev": "tsup src/index.ts --watch"
+  },
+  "dependencies": {
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@aurora/config": "workspace:*",
+    "tsup": "8.0.2",
+    "vitest": "1.2.2"
+  }
+}
