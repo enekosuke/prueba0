@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Boutique | Contacto y asesoría</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+    <div class="background-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="orb orb-4"></span>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <div class="brand" aria-label="Lumina Boutique">Lumina<span>Boutique</span></div>
+        <nav aria-label="Navegación principal">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+                <span class="sr-only">Abrir menú</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html" data-nav="home">Inicio</a></li>
+                <li><a href="colecciones.html" data-nav="collections">Colecciones</a></li>
+                <li><a href="experiencias.html" data-nav="experiences">Experiencias</a></li>
+                <li><a href="blog.html" data-nav="blog">Blog</a></li>
+                <li><a href="contacto.html" data-nav="contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="#asesoria">Agenda tu estilista</a>
+    </header>
+
+    <main>
+        <section class="page-hero" id="asesoria">
+            <p class="hero-eyebrow">Contacto directo</p>
+            <h1>Estamos a un mensaje de crear tu próxima historia de estilo</h1>
+            <p>Completa el formulario o elige un canal directo para hablar con nuestro equipo. Respondemos en menos de 12 horas.</p>
+            <div class="hero-actions">
+                <a class="btn" href="#formulario">Reservar asesoría</a>
+                <a class="btn btn-ghost" href="#faq">Ver preguntas frecuentes</a>
+            </div>
+        </section>
+
+        <section class="contact-wrapper" id="formulario">
+            <div class="contact-info" data-reveal>
+                <h2>Canales inmediatos</h2>
+                <ul>
+                    <li><strong>Email boutique:</strong> hola@luminaboutique.com</li>
+                    <li><strong>WhatsApp concierge:</strong> +57 300 000 000</li>
+                    <li><strong>Showroom Bogotá:</strong> Calle 81 #11-45 · Lun-Sab 10am-8pm</li>
+                </ul>
+                <div class="contact-badges">
+                    <span>Respuesta 12h</span>
+                    <span>Asesoría bilingüe</span>
+                    <span>Seguimiento personalizado</span>
+                </div>
+            </div>
+            <form class="contact-form" data-enhanced-form>
+                <div class="form-field">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="topic">Tema de interés</label>
+                    <select id="topic" name="topic" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="styling">Styling personalizado</option>
+                        <option value="club">Club Lumina</option>
+                        <option value="eventos">Eventos & pop-ups</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="message">Cuéntanos qué buscas</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button class="btn" type="submit">Enviar solicitud</button>
+                <p class="form-feedback" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="faq" id="faq">
+            <div class="section-header">
+                <span class="eyebrow">Preguntas frecuentes</span>
+                <h2>Resolvemos tus dudas antes de tu visita</h2>
+            </div>
+            <div class="faq-accordion">
+                <article class="faq-item" data-accordion>
+                    <button class="faq-question" type="button" data-accordion-trigger>
+                        ¿Cómo funcionan las citas híbridas?
+                        <span aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tu estilista conecta contigo por videollamada, prepara cápsulas personalizadas y coordina la entrega para que pruebes las prendas en casa o en el showroom.</p>
+                    </div>
+                </article>
+                <article class="faq-item" data-accordion>
+                    <button class="faq-question" type="button" data-accordion-trigger>
+                        ¿Cuánto tarda la entrega?
+                        <span aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>En ciudades principales entregamos en menos de 24 horas con empaques reutilizables. Para envíos internacionales el tiempo promedio es de 4 a 6 días.</p>
+                    </div>
+                </article>
+                <article class="faq-item" data-accordion>
+                    <button class="faq-question" type="button" data-accordion-trigger>
+                        ¿Qué incluye el Club Lumina?
+                        <span aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Acceso prioritario a lanzamientos, experiencias inmersivas, encuentros con diseñadores y un concierge que acompaña tus compras globales.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="map" id="club">
+            <div class="section-header">
+                <span class="eyebrow">Visítanos</span>
+                <h2>Showroom inmersivo en Bogotá</h2>
+                <p>Agenda tu visita presencial y vive el universo Lumina con instalaciones interactivas y experiencias sensoriales.</p>
+            </div>
+            <div class="map-embed" role="img" aria-label="Mapa del showroom Lumina en Bogotá">
+                <iframe title="Mapa showroom Lumina" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.067%2C4.667%2C-74.047%2C4.69&layer=mapnik" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand">Lumina<span>Boutique</span></div>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="colecciones.html">Colecciones</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <p class="footer-note">© 2024 Lumina Boutique. Moda consciente, tecnología humana.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
