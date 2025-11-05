@@ -32,13 +32,18 @@ const cartSlice = createSlice({
   reducers: {
     optimisticAdd(state, action) {
       const { product, quantity } = action.payload;
-      const existing = state.items.find((item) => item.product._id === product._id);
+      const productId = product._id || product.id;
+      const existing = state.items.find((item) => {
+        const itemId = item.product._id || item.product.id;
+        return itemId === productId;
+      });
+      const basePrice = Number(product.price) || 0;
       if (existing) {
         existing.quantity += quantity;
       } else {
         state.items.push({ _id: `temp-${Date.now()}`, product, quantity });
       }
-      state.subtotal += product.price * quantity;
+      state.subtotal += basePrice * quantity;
       state.total = state.subtotal + state.shipping + state.taxes;
     }
   },
