@@ -1,0 +1,4275 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Camiseta Essential Arena",
+    "description": "Camiseta Essential Arena confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 45.8,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Blanco",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 116,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-002",
+    "name": "Sudadera Plush Blanco",
+    "description": "Sudadera Plush Blanco confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 172.86,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanco",
+      "Rosa viejo",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 87,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-003",
+    "name": "Pantalón Tech Granate",
+    "description": "Pantalón Tech Granate confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 184.47,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Chocolate",
+      "Verde oliva",
+      "Topo",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 32,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-004",
+    "name": "Vestido Wrap Gris",
+    "description": "Vestido Wrap Gris confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 70.98,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Cobre",
+      "Chocolate",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 66,
+    "rating": 5
+  },
+  {
+    "id": "prod-005",
+    "name": "Abrigo Heritage Oliva",
+    "description": "Abrigo Heritage Oliva confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 101.37,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Chocolate",
+      "Negro",
+      "Cobre",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 75,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-006",
+    "name": "Gafas Urban Marino",
+    "description": "Gafas Urban Marino confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 77.93,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Blanco",
+      "Menta",
+      "Lavanda",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 72,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-007",
+    "name": "Camiseta Oversize Topo",
+    "description": "Camiseta Oversize Topo confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 87.13,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Crema"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 137,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-008",
+    "name": "Sudadera Retro Rosa",
+    "description": "Sudadera Retro Rosa confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 171.69,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Chocolate",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 67,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-009",
+    "name": "Pantalón Essential Menta",
+    "description": "Pantalón Essential Menta confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 144.93,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Mostaza",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 132,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-010",
+    "name": "Vestido Riviera Perla",
+    "description": "Vestido Riviera Perla confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 60.6,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 104,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-011",
+    "name": "Abrigo Classic Marino",
+    "description": "Abrigo Classic Marino confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 167.27,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 134,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-012",
+    "name": "Mochila Studio Blanco",
+    "description": "Mochila Studio Blanco confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 93.25,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Camel",
+      "Índigo",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 114,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-013",
+    "name": "Camiseta Sport Rosa",
+    "description": "Camiseta Sport Rosa confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 155.13,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Chocolate",
+      "Lavanda",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 98,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-014",
+    "name": "Sudadera Heritage Menta",
+    "description": "Sudadera Heritage Menta confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 111.61,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Blanco",
+      "Chocolate",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 65,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-015",
+    "name": "Pantalón Cargo Perla",
+    "description": "Pantalón Cargo Perla confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 170.56,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Azul marino",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 79,
+    "rating": 3
+  },
+  {
+    "id": "prod-016",
+    "name": "Vestido Muse Arena",
+    "description": "Vestido Muse Arena confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 40.45,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 89,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-017",
+    "name": "Abrigo Wool Blanco",
+    "description": "Abrigo Wool Blanco confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 138.13,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Chocolate",
+      "Topo",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 117,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-018",
+    "name": "Gafas Urban Blanco",
+    "description": "Gafas Urban Blanco confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 99.37,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 49,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-019",
+    "name": "Camiseta Stripe Gris",
+    "description": "Camiseta Stripe Gris confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 24.96,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 96,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-020",
+    "name": "Sudadera Layer Oliva",
+    "description": "Sudadera Layer Oliva confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 136.5,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Gris",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 72,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-021",
+    "name": "Pantalón Taper Arena",
+    "description": "Pantalón Taper Arena confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 147.23,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Índigo",
+      "Chocolate",
+      "Azul marino",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 32,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-022",
+    "name": "Vestido Aurora Blanco",
+    "description": "Vestido Aurora Blanco confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 23.77,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Mostaza",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 41,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-023",
+    "name": "Abrigo Nordic Granate",
+    "description": "Abrigo Nordic Granate confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 75.44,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 113,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-024",
+    "name": "Mochila Studio Rosa",
+    "description": "Mochila Studio Rosa confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 103.46,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Negro",
+      "Cobre",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 54,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-025",
+    "name": "Camiseta Organic Oliva",
+    "description": "Camiseta Organic Oliva confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 193.82,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Blanco",
+      "Azul marino",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 38,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-026",
+    "name": "Sudadera Classic Marino",
+    "description": "Sudadera Classic Marino confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 182.55,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Cobre",
+      "Azul marino",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 66,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-027",
+    "name": "Pantalón Chino Topo",
+    "description": "Pantalón Chino Topo confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 85.88,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Índigo",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 107,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-028",
+    "name": "Vestido Boho Rosa",
+    "description": "Vestido Boho Rosa confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 175.07,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Verde oliva",
+      "Arena",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 113,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-029",
+    "name": "Abrigo Storm Menta",
+    "description": "Abrigo Storm Menta confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 87.49,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Arena",
+      "Azul marino",
+      "Topo",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 120,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-030",
+    "name": "Gafas Urban Rosa",
+    "description": "Gafas Urban Rosa confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 36.46,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Camel",
+      "Terracota",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 89,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-031",
+    "name": "Camiseta Essential Marino",
+    "description": "Camiseta Essential Marino confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 178.02,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 59,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-032",
+    "name": "Sudadera Plush Topo",
+    "description": "Sudadera Plush Topo confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 174.85,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Crema",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 97,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-033",
+    "name": "Pantalón Tech Rosa",
+    "description": "Pantalón Tech Rosa confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 36.37,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Topo",
+      "Camel",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 148,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-034",
+    "name": "Vestido Wrap Menta",
+    "description": "Vestido Wrap Menta confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 147,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 59,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-035",
+    "name": "Abrigo Heritage Perla",
+    "description": "Abrigo Heritage Perla confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 179.44,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Cobre",
+      "Terracota",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 120,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-036",
+    "name": "Mochila Studio Gris",
+    "description": "Mochila Studio Gris confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 160.8,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Arena",
+      "Menta",
+      "Crema",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 118,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-037",
+    "name": "Camiseta Oversize Blanco",
+    "description": "Camiseta Oversize Blanco confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 53.3,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Camel"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 137,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-038",
+    "name": "Sudadera Retro Granate",
+    "description": "Sudadera Retro Granate confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 74.59,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanco",
+      "Camel"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 149,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-039",
+    "name": "Pantalón Essential Gris",
+    "description": "Pantalón Essential Gris confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 118.29,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Chocolate",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 84,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-040",
+    "name": "Vestido Riviera Oliva",
+    "description": "Vestido Riviera Oliva confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 35.31,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Mostaza",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 63,
+    "rating": 5
+  },
+  {
+    "id": "prod-041",
+    "name": "Abrigo Classic Arena",
+    "description": "Abrigo Classic Arena confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 59.54,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Mostaza",
+      "Menta",
+      "Lavanda",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 59,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-042",
+    "name": "Gafas Urban Gris",
+    "description": "Gafas Urban Gris confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 192.66,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Crema",
+      "Granate",
+      "Chocolate",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 125,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-043",
+    "name": "Camiseta Sport Granate",
+    "description": "Camiseta Sport Granate confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 139,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Rosa viejo",
+      "Azul marino",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 134,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-044",
+    "name": "Sudadera Heritage Gris",
+    "description": "Sudadera Heritage Gris confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 197.25,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Mostaza",
+      "Crema",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 147,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-045",
+    "name": "Pantalón Cargo Oliva",
+    "description": "Pantalón Cargo Oliva confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 100.2,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Arena",
+      "Chocolate",
+      "Gris",
+      "Camel"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 140,
+    "rating": 4
+  },
+  {
+    "id": "prod-046",
+    "name": "Vestido Muse Marino",
+    "description": "Vestido Muse Marino confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 96.33,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Lavanda",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 128,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-047",
+    "name": "Abrigo Wool Topo",
+    "description": "Abrigo Wool Topo confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 23.07,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Cobre",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 78,
+    "rating": 4
+  },
+  {
+    "id": "prod-048",
+    "name": "Mochila Studio Perla",
+    "description": "Mochila Studio Perla confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 194.26,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Mostaza",
+      "Negro",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 85,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-049",
+    "name": "Camiseta Stripe Menta",
+    "description": "Camiseta Stripe Menta confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 67.13,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Rosa viejo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 76,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-050",
+    "name": "Sudadera Layer Perla",
+    "description": "Sudadera Layer Perla confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 62.69,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Arena",
+      "Rosa viejo",
+      "Topo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 146,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-051",
+    "name": "Pantalón Taper Marino",
+    "description": "Pantalón Taper Marino confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 87.36,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Mostaza",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 75,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-052",
+    "name": "Vestido Aurora Topo",
+    "description": "Vestido Aurora Topo confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 111.42,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Arena",
+      "Rosa viejo",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 62,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-053",
+    "name": "Abrigo Nordic Rosa",
+    "description": "Abrigo Nordic Rosa confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 121.84,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 125,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-054",
+    "name": "Gafas Urban Perla",
+    "description": "Gafas Urban Perla confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 49.94,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Mostaza",
+      "Terracota",
+      "Lavanda",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 98,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-055",
+    "name": "Camiseta Organic Perla",
+    "description": "Camiseta Organic Perla confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 49.25,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 140,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-056",
+    "name": "Sudadera Classic Arena",
+    "description": "Sudadera Classic Arena confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 65.06,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Granate",
+      "Crema"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 70,
+    "rating": 3
+  },
+  {
+    "id": "prod-057",
+    "name": "Pantalón Chino Blanco",
+    "description": "Pantalón Chino Blanco confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 88.49,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Gris",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 110,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-058",
+    "name": "Vestido Boho Granate",
+    "description": "Vestido Boho Granate confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 148.73,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Camel",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 58,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-059",
+    "name": "Abrigo Storm Gris",
+    "description": "Abrigo Storm Gris confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 186.3,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 58,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-060",
+    "name": "Mochila Studio Marino",
+    "description": "Mochila Studio Marino confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 90.2,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Topo",
+      "Menta",
+      "Verde oliva",
+      "Camel"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 41,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-061",
+    "name": "Camiseta Essential Arena",
+    "description": "Camiseta Essential Arena confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 27.91,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 80,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-062",
+    "name": "Sudadera Plush Blanco",
+    "description": "Sudadera Plush Blanco confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 95.61,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Granate",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 142,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-063",
+    "name": "Pantalón Tech Granate",
+    "description": "Pantalón Tech Granate confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 157.39,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Cobre",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 42,
+    "rating": 3
+  },
+  {
+    "id": "prod-064",
+    "name": "Vestido Wrap Gris",
+    "description": "Vestido Wrap Gris confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 86.18,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Negro",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 37,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-065",
+    "name": "Abrigo Heritage Oliva",
+    "description": "Abrigo Heritage Oliva confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 136.47,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Verde oliva",
+      "Azul marino",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 43,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-066",
+    "name": "Gafas Urban Marino",
+    "description": "Gafas Urban Marino confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 68.11,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Lavanda",
+      "Mostaza",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 51,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-067",
+    "name": "Camiseta Oversize Topo",
+    "description": "Camiseta Oversize Topo confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 83.88,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Mostaza",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 34,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-068",
+    "name": "Sudadera Retro Rosa",
+    "description": "Sudadera Retro Rosa confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 121.64,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 119,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-069",
+    "name": "Pantalón Essential Menta",
+    "description": "Pantalón Essential Menta confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 111.62,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Blanco",
+      "Azul marino",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 75,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-070",
+    "name": "Vestido Riviera Perla",
+    "description": "Vestido Riviera Perla confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 28.28,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 113,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-071",
+    "name": "Abrigo Classic Marino",
+    "description": "Abrigo Classic Marino confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 36.91,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Terracota",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 99,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-072",
+    "name": "Mochila Studio Blanco",
+    "description": "Mochila Studio Blanco confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 108,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Menta",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 143,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-073",
+    "name": "Camiseta Sport Rosa",
+    "description": "Camiseta Sport Rosa confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 127.15,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Crema",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 117,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-074",
+    "name": "Sudadera Heritage Menta",
+    "description": "Sudadera Heritage Menta confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 169.08,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Arena",
+      "Blanco",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 130,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-075",
+    "name": "Pantalón Cargo Perla",
+    "description": "Pantalón Cargo Perla confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 42.01,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Crema",
+      "Gris",
+      "Índigo",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 32,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-076",
+    "name": "Vestido Muse Arena",
+    "description": "Vestido Muse Arena confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 178.95,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 30,
+    "rating": 3
+  },
+  {
+    "id": "prod-077",
+    "name": "Abrigo Wool Blanco",
+    "description": "Abrigo Wool Blanco confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 78.41,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Crema",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 144,
+    "rating": 4
+  },
+  {
+    "id": "prod-078",
+    "name": "Gafas Urban Blanco",
+    "description": "Gafas Urban Blanco confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 190.98,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Índigo",
+      "Blanco",
+      "Rosa viejo",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 105,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-079",
+    "name": "Camiseta Stripe Gris",
+    "description": "Camiseta Stripe Gris confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 185.11,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Índigo",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 145,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-080",
+    "name": "Sudadera Layer Oliva",
+    "description": "Sudadera Layer Oliva confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 111.65,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Chocolate",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 128,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-081",
+    "name": "Pantalón Taper Arena",
+    "description": "Pantalón Taper Arena confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 197.03,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Crema",
+      "Topo",
+      "Gris",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 148,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-082",
+    "name": "Vestido Aurora Blanco",
+    "description": "Vestido Aurora Blanco confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 165.9,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Terracota",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 135,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-083",
+    "name": "Abrigo Nordic Granate",
+    "description": "Abrigo Nordic Granate confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 175.5,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Terracota",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 114,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-084",
+    "name": "Mochila Studio Rosa",
+    "description": "Mochila Studio Rosa confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 93.63,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Mostaza",
+      "Chocolate",
+      "Terracota",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 70,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-085",
+    "name": "Camiseta Organic Oliva",
+    "description": "Camiseta Organic Oliva confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 139.71,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crema",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 51,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-086",
+    "name": "Sudadera Classic Marino",
+    "description": "Sudadera Classic Marino confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 121.95,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Arena",
+      "Negro",
+      "Índigo",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 110,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-087",
+    "name": "Pantalón Chino Topo",
+    "description": "Pantalón Chino Topo confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 155.78,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Azul marino",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 103,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-088",
+    "name": "Vestido Boho Rosa",
+    "description": "Vestido Boho Rosa confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 48.42,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Terracota",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 100,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-089",
+    "name": "Abrigo Storm Menta",
+    "description": "Abrigo Storm Menta confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 59.39,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 146,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-090",
+    "name": "Gafas Urban Rosa",
+    "description": "Gafas Urban Rosa confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 159.34,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Camel"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 107,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-091",
+    "name": "Camiseta Essential Marino",
+    "description": "Camiseta Essential Marino confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 116.52,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Índigo",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 92,
+    "rating": 5
+  },
+  {
+    "id": "prod-092",
+    "name": "Sudadera Plush Topo",
+    "description": "Sudadera Plush Topo confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 140.75,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Arena",
+      "Gris",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 81,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-093",
+    "name": "Pantalón Tech Rosa",
+    "description": "Pantalón Tech Rosa confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 110.15,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Menta",
+      "Chocolate",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 62,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-094",
+    "name": "Vestido Wrap Menta",
+    "description": "Vestido Wrap Menta confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 117.51,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Cobre",
+      "Negro",
+      "Blanco",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 120,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-095",
+    "name": "Abrigo Heritage Perla",
+    "description": "Abrigo Heritage Perla confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 189.3,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 131,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-096",
+    "name": "Mochila Studio Gris",
+    "description": "Mochila Studio Gris confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 153.47,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Topo",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 119,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-097",
+    "name": "Camiseta Oversize Blanco",
+    "description": "Camiseta Oversize Blanco confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 54.75,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Mostaza",
+      "Azul marino",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 135,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-098",
+    "name": "Sudadera Retro Granate",
+    "description": "Sudadera Retro Granate confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 52.05,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Verde oliva",
+      "Chocolate",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 47,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-099",
+    "name": "Pantalón Essential Gris",
+    "description": "Pantalón Essential Gris confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 133.41,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Negro",
+      "Arena",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 92,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-100",
+    "name": "Vestido Riviera Oliva",
+    "description": "Vestido Riviera Oliva confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 54.27,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Rosa viejo",
+      "Azul marino",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 63,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-101",
+    "name": "Abrigo Classic Arena",
+    "description": "Abrigo Classic Arena confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 69.25,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Verde oliva",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 131,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-102",
+    "name": "Gafas Urban Gris",
+    "description": "Gafas Urban Gris confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 22.28,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Arena",
+      "Gris",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 133,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-103",
+    "name": "Camiseta Sport Granate",
+    "description": "Camiseta Sport Granate confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 37.22,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Mostaza",
+      "Chocolate",
+      "Crema"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 40,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-104",
+    "name": "Sudadera Heritage Gris",
+    "description": "Sudadera Heritage Gris confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 120.22,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 79,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-105",
+    "name": "Pantalón Cargo Oliva",
+    "description": "Pantalón Cargo Oliva confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 142.97,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Arena",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 93,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-106",
+    "name": "Vestido Muse Marino",
+    "description": "Vestido Muse Marino confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 93.21,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Arena",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 125,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-107",
+    "name": "Abrigo Wool Topo",
+    "description": "Abrigo Wool Topo confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 181.56,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 78,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-108",
+    "name": "Mochila Studio Perla",
+    "description": "Mochila Studio Perla confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 95.6,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Terracota",
+      "Topo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 30,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-109",
+    "name": "Camiseta Stripe Menta",
+    "description": "Camiseta Stripe Menta confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 81.99,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Azul marino",
+      "Verde oliva",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 98,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-110",
+    "name": "Sudadera Layer Perla",
+    "description": "Sudadera Layer Perla confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 105.96,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 121,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-111",
+    "name": "Pantalón Taper Marino",
+    "description": "Pantalón Taper Marino confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 88.62,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Cobre",
+      "Topo",
+      "Lavanda",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 104,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-112",
+    "name": "Vestido Aurora Topo",
+    "description": "Vestido Aurora Topo confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 165.57,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Topo",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 75,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-113",
+    "name": "Abrigo Nordic Rosa",
+    "description": "Abrigo Nordic Rosa confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 129.28,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 119,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-114",
+    "name": "Gafas Urban Perla",
+    "description": "Gafas Urban Perla confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 46.74,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Menta",
+      "Camel",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 126,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-115",
+    "name": "Camiseta Organic Perla",
+    "description": "Camiseta Organic Perla confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 142.4,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 64,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-116",
+    "name": "Sudadera Classic Arena",
+    "description": "Sudadera Classic Arena confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 142.97,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 130,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-117",
+    "name": "Pantalón Chino Blanco",
+    "description": "Pantalón Chino Blanco confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 81.46,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Terracota",
+      "Menta",
+      "Mostaza",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 33,
+    "rating": 3
+  },
+  {
+    "id": "prod-118",
+    "name": "Vestido Boho Granate",
+    "description": "Vestido Boho Granate confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 55,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Azul marino",
+      "Camel",
+      "Verde oliva",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 118,
+    "rating": 3
+  },
+  {
+    "id": "prod-119",
+    "name": "Abrigo Storm Gris",
+    "description": "Abrigo Storm Gris confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 71.58,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 38,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-120",
+    "name": "Mochila Studio Marino",
+    "description": "Mochila Studio Marino confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 100.16,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Crema",
+      "Lavanda",
+      "Camel",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 83,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-121",
+    "name": "Camiseta Essential Arena",
+    "description": "Camiseta Essential Arena confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 54.45,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Camel",
+      "Topo",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 76,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-122",
+    "name": "Sudadera Plush Blanco",
+    "description": "Sudadera Plush Blanco confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 139.44,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Índigo",
+      "Rosa viejo",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 32,
+    "rating": 4
+  },
+  {
+    "id": "prod-123",
+    "name": "Pantalón Tech Granate",
+    "description": "Pantalón Tech Granate confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 184.61,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Terracota",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 116,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-124",
+    "name": "Vestido Wrap Gris",
+    "description": "Vestido Wrap Gris confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 133.87,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Crema",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 129,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-125",
+    "name": "Abrigo Heritage Oliva",
+    "description": "Abrigo Heritage Oliva confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 186.43,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Topo",
+      "Rosa viejo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 142,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-126",
+    "name": "Gafas Urban Marino",
+    "description": "Gafas Urban Marino confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 108.27,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Mostaza",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 32,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-127",
+    "name": "Camiseta Oversize Topo",
+    "description": "Camiseta Oversize Topo confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 131.32,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 129,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-128",
+    "name": "Sudadera Retro Rosa",
+    "description": "Sudadera Retro Rosa confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 121.61,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Blanco",
+      "Lavanda",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 52,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-129",
+    "name": "Pantalón Essential Menta",
+    "description": "Pantalón Essential Menta confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 154.55,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Crema",
+      "Índigo",
+      "Chocolate",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 64,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-130",
+    "name": "Vestido Riviera Perla",
+    "description": "Vestido Riviera Perla confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 45.58,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanco",
+      "Terracota",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 113,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-131",
+    "name": "Abrigo Classic Marino",
+    "description": "Abrigo Classic Marino confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 113.81,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Cobre",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 142,
+    "rating": 3.7
+  },
+  {
+    "id": "prod-132",
+    "name": "Mochila Studio Blanco",
+    "description": "Mochila Studio Blanco confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 74.54,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Azul marino",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 70,
+    "rating": 4
+  },
+  {
+    "id": "prod-133",
+    "name": "Camiseta Sport Rosa",
+    "description": "Camiseta Sport Rosa confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 30.91,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crema",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 135,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-134",
+    "name": "Sudadera Heritage Menta",
+    "description": "Sudadera Heritage Menta confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 137.46,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Chocolate",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 69,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-135",
+    "name": "Pantalón Cargo Perla",
+    "description": "Pantalón Cargo Perla confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 164.18,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Camel",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 36,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-136",
+    "name": "Vestido Muse Arena",
+    "description": "Vestido Muse Arena confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 81.38,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Arena",
+      "Azul marino",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 71,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-137",
+    "name": "Abrigo Wool Blanco",
+    "description": "Abrigo Wool Blanco confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 171.25,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Topo",
+      "Gris",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 51,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-138",
+    "name": "Gafas Urban Blanco",
+    "description": "Gafas Urban Blanco confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 195.47,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Menta",
+      "Crema",
+      "Negro",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 114,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-139",
+    "name": "Camiseta Stripe Gris",
+    "description": "Camiseta Stripe Gris confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 61.18,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Verde oliva",
+      "Crema",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 60,
+    "rating": 5
+  },
+  {
+    "id": "prod-140",
+    "name": "Sudadera Layer Oliva",
+    "description": "Sudadera Layer Oliva confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 151.78,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Chocolate",
+      "Crema"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 126,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-141",
+    "name": "Pantalón Taper Arena",
+    "description": "Pantalón Taper Arena confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 199.32,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Terracota",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 47,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-142",
+    "name": "Vestido Aurora Blanco",
+    "description": "Vestido Aurora Blanco confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 175.07,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 53,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-143",
+    "name": "Abrigo Nordic Granate",
+    "description": "Abrigo Nordic Granate confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 45.71,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Azul marino",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 109,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-144",
+    "name": "Mochila Studio Rosa",
+    "description": "Mochila Studio Rosa confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 116.64,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Blanco",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 99,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-145",
+    "name": "Camiseta Organic Oliva",
+    "description": "Camiseta Organic Oliva confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 179.62,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Azul marino",
+      "Rosa viejo",
+      "Camel",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 70,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-146",
+    "name": "Sudadera Classic Marino",
+    "description": "Sudadera Classic Marino confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 178.69,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Topo",
+      "Menta",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 48,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-147",
+    "name": "Pantalón Chino Topo",
+    "description": "Pantalón Chino Topo confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 36.2,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Cobre",
+      "Menta",
+      "Verde oliva",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 105,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-148",
+    "name": "Vestido Boho Rosa",
+    "description": "Vestido Boho Rosa confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 159.72,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Arena",
+      "Blanco",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 53,
+    "rating": 3.7
+  },
+  {
+    "id": "prod-149",
+    "name": "Abrigo Storm Menta",
+    "description": "Abrigo Storm Menta confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 192.37,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Menta",
+      "Arena",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 111,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-150",
+    "name": "Gafas Urban Rosa",
+    "description": "Gafas Urban Rosa confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 152.77,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 98,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-151",
+    "name": "Camiseta Essential Marino",
+    "description": "Camiseta Essential Marino confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 115.18,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Gris",
+      "Topo",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 118,
+    "rating": 5
+  },
+  {
+    "id": "prod-152",
+    "name": "Sudadera Plush Topo",
+    "description": "Sudadera Plush Topo confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 168.09,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Chocolate",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 99,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-153",
+    "name": "Pantalón Tech Rosa",
+    "description": "Pantalón Tech Rosa confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 58.67,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Camel",
+      "Azul marino",
+      "Lavanda",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 60,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-154",
+    "name": "Vestido Wrap Menta",
+    "description": "Vestido Wrap Menta confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 71.99,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Topo",
+      "Negro",
+      "Verde oliva",
+      "Camel"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 72,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-155",
+    "name": "Abrigo Heritage Perla",
+    "description": "Abrigo Heritage Perla confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 182.37,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Cobre",
+      "Índigo",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 54,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-156",
+    "name": "Mochila Studio Gris",
+    "description": "Mochila Studio Gris confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 196.43,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Azul marino",
+      "Índigo",
+      "Mostaza"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 57,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-157",
+    "name": "Camiseta Oversize Blanco",
+    "description": "Camiseta Oversize Blanco confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 58.89,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Rosa viejo",
+      "Negro",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 91,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-158",
+    "name": "Sudadera Retro Granate",
+    "description": "Sudadera Retro Granate confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 198.58,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 79,
+    "rating": 5
+  },
+  {
+    "id": "prod-159",
+    "name": "Pantalón Essential Gris",
+    "description": "Pantalón Essential Gris confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 41.85,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Topo",
+      "Lavanda",
+      "Chocolate",
+      "Arena"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 88,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-160",
+    "name": "Vestido Riviera Oliva",
+    "description": "Vestido Riviera Oliva confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 57.61,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Topo",
+      "Menta",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 45,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-161",
+    "name": "Abrigo Classic Arena",
+    "description": "Abrigo Classic Arena confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 151.53,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Arena",
+      "Topo",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 34,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-162",
+    "name": "Gafas Urban Gris",
+    "description": "Gafas Urban Gris confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 38.99,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Crema",
+      "Mostaza",
+      "Topo",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 66,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-163",
+    "name": "Camiseta Sport Granate",
+    "description": "Camiseta Sport Granate confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 80.17,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crema",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 135,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-164",
+    "name": "Sudadera Heritage Gris",
+    "description": "Sudadera Heritage Gris confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 173.84,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Azul marino",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 79,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-165",
+    "name": "Pantalón Cargo Oliva",
+    "description": "Pantalón Cargo Oliva confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 153.79,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Camel",
+      "Chocolate",
+      "Crema",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 120,
+    "rating": 4
+  },
+  {
+    "id": "prod-166",
+    "name": "Vestido Muse Marino",
+    "description": "Vestido Muse Marino confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 73.1,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 69,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-167",
+    "name": "Abrigo Wool Topo",
+    "description": "Abrigo Wool Topo confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 200,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 102,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-168",
+    "name": "Mochila Studio Perla",
+    "description": "Mochila Studio Perla confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 97.79,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Lavanda",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 145,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-169",
+    "name": "Camiseta Stripe Menta",
+    "description": "Camiseta Stripe Menta confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 197.41,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 33,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-170",
+    "name": "Sudadera Layer Perla",
+    "description": "Sudadera Layer Perla confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 165.47,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Granate",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 92,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-171",
+    "name": "Pantalón Taper Marino",
+    "description": "Pantalón Taper Marino confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 77.21,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Lavanda",
+      "Blanco",
+      "Terracota",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 149,
+    "rating": 3
+  },
+  {
+    "id": "prod-172",
+    "name": "Vestido Aurora Topo",
+    "description": "Vestido Aurora Topo confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 56.38,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 121,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-173",
+    "name": "Abrigo Nordic Rosa",
+    "description": "Abrigo Nordic Rosa confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 21.33,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Menta",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 73,
+    "rating": 3.7
+  },
+  {
+    "id": "prod-174",
+    "name": "Gafas Urban Perla",
+    "description": "Gafas Urban Perla confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 120.55,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Gris",
+      "Menta",
+      "Blanco"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 62,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-175",
+    "name": "Camiseta Organic Perla",
+    "description": "Camiseta Organic Perla confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 167.55,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Azul marino",
+      "Arena",
+      "Cobre",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 81,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-176",
+    "name": "Sudadera Classic Arena",
+    "description": "Sudadera Classic Arena confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 173.76,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Índigo",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 42,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-177",
+    "name": "Pantalón Chino Blanco",
+    "description": "Pantalón Chino Blanco confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 77.1,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Cobre",
+      "Terracota"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 85,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-178",
+    "name": "Vestido Boho Granate",
+    "description": "Vestido Boho Granate confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 148.81,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 79,
+    "rating": 4.7
+  },
+  {
+    "id": "prod-179",
+    "name": "Abrigo Storm Gris",
+    "description": "Abrigo Storm Gris confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 29.25,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanco",
+      "Granate",
+      "Chocolate",
+      "Azul marino"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 64,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-180",
+    "name": "Mochila Studio Marino",
+    "description": "Mochila Studio Marino confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 60.97,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Menta",
+      "Chocolate",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 89,
+    "rating": 4.6
+  },
+  {
+    "id": "prod-181",
+    "name": "Camiseta Essential Arena",
+    "description": "Camiseta Essential Arena confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 190.1,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanco",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 38,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-182",
+    "name": "Sudadera Plush Blanco",
+    "description": "Sudadera Plush Blanco confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 159.74,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rosa viejo",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 74,
+    "rating": 4.9
+  },
+  {
+    "id": "prod-183",
+    "name": "Pantalón Tech Granate",
+    "description": "Pantalón Tech Granate confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 24.23,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Crema",
+      "Lavanda"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 43,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-184",
+    "name": "Vestido Wrap Gris",
+    "description": "Vestido Wrap Gris confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 84.54,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavanda",
+      "Verde oliva",
+      "Rosa viejo",
+      "Crema"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 31,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-185",
+    "name": "Abrigo Heritage Oliva",
+    "description": "Abrigo Heritage Oliva confeccionada en lana suave con acabado suave y detalles cuidados para el uso diario.",
+    "price": 78.93,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Topo",
+      "Granate",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 138,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-186",
+    "name": "Gafas Urban Marino",
+    "description": "Gafas Urban Marino confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 22.21,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Cobre",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 88,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-187",
+    "name": "Camiseta Oversize Topo",
+    "description": "Camiseta Oversize Topo confeccionada en knit respirable con acabado suave y detalles cuidados para el uso diario.",
+    "price": 109.84,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanco",
+      "Lavanda",
+      "Chocolate",
+      "Topo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 49,
+    "rating": 3.7
+  },
+  {
+    "id": "prod-188",
+    "name": "Sudadera Retro Rosa",
+    "description": "Sudadera Retro Rosa confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 164.83,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Azul marino",
+      "Lavanda",
+      "Granate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 92,
+    "rating": 3.4
+  },
+  {
+    "id": "prod-189",
+    "name": "Pantalón Essential Menta",
+    "description": "Pantalón Essential Menta confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 119.94,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Granate",
+      "Topo",
+      "Gris"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 38,
+    "rating": 4
+  },
+  {
+    "id": "prod-190",
+    "name": "Vestido Riviera Perla",
+    "description": "Vestido Riviera Perla confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 67.43,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Negro",
+      "Terracota",
+      "Rosa viejo",
+      "Verde oliva"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 138,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-191",
+    "name": "Abrigo Classic Marino",
+    "description": "Abrigo Classic Marino confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 174.3,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Arena",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 138,
+    "rating": 5
+  },
+  {
+    "id": "prod-192",
+    "name": "Mochila Studio Blanco",
+    "description": "Mochila Studio Blanco confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 142.57,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Azul marino",
+      "Topo",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 115,
+    "rating": 3.7
+  },
+  {
+    "id": "prod-193",
+    "name": "Camiseta Sport Rosa",
+    "description": "Camiseta Sport Rosa confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 44.09,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Menta",
+      "Verde oliva",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 143,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-194",
+    "name": "Sudadera Heritage Menta",
+    "description": "Sudadera Heritage Menta confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 75.16,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Índigo",
+      "Lavanda",
+      "Arena",
+      "Cobre"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 125,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-195",
+    "name": "Pantalón Cargo Perla",
+    "description": "Pantalón Cargo Perla confeccionada en mezcla premium con acabado suave y detalles cuidados para el uso diario.",
+    "price": 21.87,
+    "category": "Pantalones",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Camel",
+      "Azul marino",
+      "Chocolate",
+      "Negro"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 32,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-196",
+    "name": "Vestido Muse Arena",
+    "description": "Vestido Muse Arena confeccionada en algodón orgánico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 143.09,
+    "category": "Vestidos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Arena",
+      "Rosa viejo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 70,
+    "rating": 3.8
+  },
+  {
+    "id": "prod-197",
+    "name": "Abrigo Wool Blanco",
+    "description": "Abrigo Wool Blanco confeccionada en lino ligero con acabado suave y detalles cuidados para el uso diario.",
+    "price": 35.88,
+    "category": "Abrigos",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris",
+      "Chocolate",
+      "Lavanda",
+      "Menta"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 62,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-198",
+    "name": "Gafas Urban Blanco",
+    "description": "Gafas Urban Blanco confeccionada en tejido técnico con acabado suave y detalles cuidados para el uso diario.",
+    "price": 178.53,
+    "category": "Accesorios",
+    "sizes": [
+      "Única"
+    ],
+    "colors": [
+      "Negro",
+      "Azul marino",
+      "Índigo",
+      "Crema"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 95,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-199",
+    "name": "Camiseta Stripe Gris",
+    "description": "Camiseta Stripe Gris confeccionada en sarga elástica con acabado suave y detalles cuidados para el uso diario.",
+    "price": 112.22,
+    "category": "Camisetas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Verde oliva",
+      "Lavanda",
+      "Rosa viejo",
+      "Chocolate"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 91,
+    "rating": 4.2
+  },
+  {
+    "id": "prod-200",
+    "name": "Sudadera Layer Oliva",
+    "description": "Sudadera Layer Oliva confeccionada en fibras recicladas con acabado suave y detalles cuidados para el uso diario.",
+    "price": 184.46,
+    "category": "Sudaderas",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Terracota",
+      "Gris",
+      "Azul marino",
+      "Índigo"
+    ],
+    "image": "/images/placeholder.svg",
+    "stock": 113,
+    "rating": 4.2
+  }
+]

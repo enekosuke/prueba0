@@ -11,9 +11,25 @@ function normalizePath(path) {
 }
 
 async function request(path, options = {}) {
-  const { method = 'GET', headers = {}, body, ...rest } = options;
+  const { method = 'GET', headers = {}, body, params, ...rest } = options;
   const normalizedPath = normalizePath(path);
-  const url = `${BASE_URL}${normalizedPath}`;
+  let url = `${BASE_URL}${normalizedPath}`;
+
+  if (params && typeof params === 'object') {
+    const searchParams = new URLSearchParams();
+    Object.entries(params).forEach(([key, value]) => {
+      if (value === undefined || value === null || value === '') return;
+      if (Array.isArray(value)) {
+        value.forEach((item) => searchParams.append(key, item));
+      } else {
+        searchParams.append(key, value);
+      }
+    });
+    const query = searchParams.toString();
+    if (query) {
+      url = `${url}?${query}`;
+    }
+  }
 
   const finalHeaders = {
     'Content-Type': 'application/json',

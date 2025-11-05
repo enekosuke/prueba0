@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Imagen no disponible</title>
+  <desc id="desc">Recurso temporal para productos sin fotografía</desc>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#gradient)" rx="48" ry="48" />
+  <g fill="none" stroke="#94a3b8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="196" cy="196" r="72" />
+    <path d="M72 408l112-128 96 104 64-80 96 104" />
+    <path d="M72 104h368" stroke-width="18" opacity="0.4" />
+    <path d="M72 456h368" stroke-width="18" opacity="0.4" />
+  </g>
+</svg>

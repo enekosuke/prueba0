@@ -8,8 +8,9 @@ export default function useAutocomplete(query) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    if (query.length > 2) {
-      dispatch(fetchSuggestions(query));
+    const trimmed = query.trim();
+    if (trimmed.length > 2) {
+      dispatch(fetchSuggestions(trimmed));
       setOpen(true);
     } else {
       setOpen(false);
